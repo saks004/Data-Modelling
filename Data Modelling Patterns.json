@@ -1,0 +1,110 @@
+{
+    "key1": {
+        "_comment": "1 to 1  and 1 to many relationship",
+        "Product": "iphone",
+        "emi": {
+            "number": "123456"
+        },
+        "Price": "1500",
+        "Dimensions": [
+            {
+                "Length": "10cm",
+                "Breadth": "5 cm",
+                "Height": "1.5 cm"
+            }
+        ],
+        "Image": [
+            "url1",
+            "url2"
+        ]
+    },
+    "key2": {
+        "_comment": "2 level nested data object",
+        "Name": "Lamp",
+        "Details": {
+            "Dimensions": {
+                "height": "20cm",
+                "weight": "100 gms"
+            },
+            "Color": "Black",
+            "Battery": "Yes"
+        }
+    },
+    "key3": {
+        "_comment": "many to many relationship",
+        "Physiscs": [
+            "sakshum",
+            "kanishk"
+        ],
+        "Chemistry": [
+            "kanishk",
+            "sakshum"
+        ],
+        "Maths": [
+            "kaniskh",
+            "sakshum",
+            "saurabh"
+        ],
+        "English": [
+            "sakshum",
+            "saurabh"
+        ]
+    },
+    "key4": {
+        "_comment": "Aggregated pattern",
+        "Keyboard": {
+            "Product_ratings": [
+                2.5,
+                3,
+                4.5,
+                6,
+                7.5
+            ],
+            "Aggregated_val":"Sum of Rating/ num of Rating"
+        }
+    },
+    "key5": {
+        "_comment": "Polymorphic Pattern",
+        "name": "mouse",
+        "Price": "$89",
+        "brand": "logitech",
+        "connectivity": {
+            "usb": [
+                2,
+                "A"
+            ],
+            "bluetooth": [
+                2.4,
+                4,
+                5
+            ]
+        }
+    },
+    
+    "key6": {
+        "_comment": "Bucket pattern",
+        "time": [
+            "06:00",
+            "07:00",
+            "08:00",
+            "09:00",
+            "10:00"
+        ],
+        "temperature": [
+            40,
+            45,
+            43,
+            47,
+            50
+        ]
+    },
+    "key7": {
+        "_comment": "Revision Pattern",
+        "Project_Status": {
+            "Comments": "Planning phase"
+        }
+    },
+    "key8": {
+        "_comment": "Tree and graph",
+    }
+}
